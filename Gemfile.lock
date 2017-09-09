@@ -1,0 +1,48 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    crass (1.0.2)
+    fast_blank (1.0.0)
+    htmlentities (4.3.4)
+    json (2.1.0)
+    mini_portile2 (2.2.0)
+    moneta (1.0.0)
+    multi_json (1.12.2)
+    mustache (1.0.5)
+    mustermann (1.0.1)
+    nokogiri (1.8.0)
+      mini_portile2 (~> 2.2.0)
+    nokogumbo (1.4.13)
+      nokogiri
+    onebox (1.8.18)
+      fast_blank (>= 1.0.0)
+      htmlentities (~> 4.3)
+      moneta (~> 1.0)
+      multi_json (~> 1.11)
+      mustache
+      nokogiri (~> 1.7)
+      sanitize
+    rack (2.0.3)
+    rack-protection (2.0.0)
+      rack
+    sanitize (4.5.0)
+      crass (~> 1.0.2)
+      nokogiri (>= 1.4.4)
+      nokogumbo (~> 1.4.1)
+    sinatra (2.0.0)
+      mustermann (~> 1.0)
+      rack (~> 2.0)
+      rack-protection (= 2.0.0)
+      tilt (~> 2.0)
+    tilt (2.0.8)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  json
+  onebox
+  sinatra
+
+BUNDLED WITH
+   1.16.0.pre.2

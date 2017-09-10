@@ -5,22 +5,22 @@ GEM
     fast_blank (1.0.0)
     htmlentities (4.3.4)
     json (2.1.0)
-    mini_portile2 (2.2.0)
-    moneta (1.0.0)
+    mini_portile2 (2.1.0)
+    moneta (0.8.1)
     multi_json (1.12.2)
     mustache (1.0.5)
     mustermann (1.0.1)
-    nokogiri (1.8.0)
-      mini_portile2 (~> 2.2.0)
+    nokogiri (1.6.8.1)
+      mini_portile2 (~> 2.1.0)
     nokogumbo (1.4.13)
       nokogiri
-    onebox (1.8.18)
+    onebox (1.7.5)
       fast_blank (>= 1.0.0)
-      htmlentities (~> 4.3)
-      moneta (~> 1.0)
+      htmlentities (~> 4.3.4)
+      moneta (~> 0.8)
       multi_json (~> 1.11)
       mustache
-      nokogiri (~> 1.7)
+      nokogiri (~> 1.6.6)
       sanitize
     rack (2.0.3)
     rack-protection (2.0.0)
@@ -41,7 +41,7 @@ PLATFORMS
 
 DEPENDENCIES
   json
-  onebox
+  onebox (= 1.7.5)
   sinatra
 
 BUNDLED WITH

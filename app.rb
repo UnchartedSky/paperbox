@@ -2,6 +2,11 @@ require 'sinatra'
 require 'onebox'
 require 'uri'
 
+set :run, true
+set :bind, '0.0.0.0'
+set :logging, true
+set :dump_errors, true
+
 get '/previews' do
   url = params['url']
   if url.nil?

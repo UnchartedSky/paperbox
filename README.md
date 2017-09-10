@@ -5,7 +5,7 @@ $ bundler install && ruby app.rb
 ```
 
 ``` bash
-$ curl http://localhost:4567/previews?url=https://blog.argoproj.io/introducing-argo-a-container-native-wonetes-55c0b4b76fac?source=userActivityShare-13053a436336-1504739366
+$ curl http://localhost:4567/previews?url=https://blog.argoproj.io/introducing-argo-a-container-native-wonetes-55c0b4b76fac
 
 <aside class="onebox whitelistedgeneric">
   <header class="source">

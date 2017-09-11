@@ -2,9 +2,7 @@ FROM ruby:2.4
 
 RUN apt-get update -qq && \
 	apt-get upgrade -y -qq && \
-	gem update && \
-	gem install bundler --pre && \
-	gem install puma
+	gem update
 
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app

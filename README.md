@@ -1,9 +1,21 @@
 # paperbox
 
+## Local dev
+
+First, set up local ruby development environment: 
+
+``` bash
+$ brew install rbenv && rbenv install && gem install bundler 
+```
+
+You can run the server with the following command:
+
 ``` bash
 $ bundler install && ruby app.rb 
 ```
 
+Only a simple API is provided:
+ 
 ``` bash
 $ curl http://localhost:4567/previews?url=https://blog.argoproj.io/introducing-argo-a-container-native-wonetes-55c0b4b76fac
 
@@ -25,4 +37,10 @@ $ curl http://localhost:4567/previews?url=https://blog.argoproj.io/introducing-a
   </div>
   <div style="clear: both"></div>
 </aside>
+```
+
+## Dockerize
+
+``` bash
+make run 
 ```
